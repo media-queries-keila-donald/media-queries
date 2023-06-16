@@ -1,3 +1,7 @@
+:root{
+    --primary:#CCC;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -14,8 +18,14 @@ a {
 .column.main {
     flex: 0 0 65%;
 }
+main.container{
+    min-height: 58vh;
+}
 .hidden-on-desktop {
     display: none;
+}
+.footer{
+    align-items: unset;
 }
 
 @media screen and (max-width: 600px) {
@@ -23,7 +33,9 @@ a {
         flex-direction: column;
     }
     .hidden-on-desktop {
+        text-align: center;
         display: block;
+        padding-top: 10px;
     }
     .nav-links {
         flex-direction: column;
@@ -34,7 +46,7 @@ a {
 
     }
     li {
-        background-color: #CCC;
+        background-color: var(--primary);
         padding: 15px 0;
     }
     h1.column {
@@ -43,5 +55,14 @@ a {
     }
     header.container .row {
         flex-direction: column;
+    }
+    .btn{
+        width: 100%;
+        padding: 15px 0;
+        background-color: #CBFFFF;
+        border-color: var(--primary);
+        border-style: solid;
+
+
     }
 }
