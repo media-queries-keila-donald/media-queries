@@ -7,3 +7,41 @@ a {
     font-family: sans-serif;
 
 }
+.header-img img {
+    width: 100%;
+}
+
+.column.main {
+    flex: 0 0 65%;
+}
+.hidden-on-desktop {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    main.container .row {
+        flex-direction: column;
+    }
+    .hidden-on-desktop {
+        display: block;
+    }
+    .nav-links {
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+    .nav-links.gap-20 {
+
+    }
+    li {
+        background-color: #CCC;
+        padding: 15px 0;
+    }
+    h1.column {
+        flex-direction: column;
+        text-align: center;
+    }
+    header.container .row {
+        flex-direction: column;
+    }
+}
