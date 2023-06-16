@@ -1,0 +1,9 @@
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    font-family: sans-serif;
+
+}
