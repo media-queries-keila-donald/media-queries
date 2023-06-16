@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Media Queries</title>
-    <link rel="stylesheet" href="../codeup-web-exercises/css/layout.css">
-    <link rel="stylesheet" href="../codeup-web-exercises/css/resets.css">
+    <link rel="stylesheet" href="css/resets.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
 <body>
-<div>
+<div class="page-wrapper">
     <div class="alert-info hidden-on-desktop">
         <a href="#main">Skip to main content</a>
     </div>
-    <h1>Company</h1>
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <header class="container">
+        <div class="row">
+            <h1 class="column">Company</h1>
+            <nav class="column">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
     <div class="header-img">
         <img src="https://via.placeholder.com/900x400?" alt="">
     </div>
