@@ -2,6 +2,18 @@
     --primary:#CCC;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+header {
+    font-family: sans-serif;
+}
+
+#social-media-links {
+    height: 50px;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -26,6 +38,10 @@ main.container{
 }
 .footer{
     align-items: unset;
+}
+
+/*#social-media-links {*/
+/*    align-items: unset;*/
 }
 
 @media screen and (max-width: 600px) {
