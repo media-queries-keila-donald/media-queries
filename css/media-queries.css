@@ -14,6 +14,7 @@ header {
     height: 50px;
     display: flex;
     flex-direction: row-reverse;
+    padding-bottom: 8px;
 }
 
 .nav-links {
@@ -37,9 +38,6 @@ main.container{
 }
 .hidden-on-desktop {
     display: none;
-}
-.footer{
-    flex-direction: row;
 }
 
 
